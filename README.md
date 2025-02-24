@@ -1,3 +1,3 @@
 # Homelab Docker and Portainer Setup
 
-![Homelab](Images/homelab.jpeg)
+![Homelab](docs/images/homelab.jpeg)
