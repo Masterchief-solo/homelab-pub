@@ -2313,7 +2313,7 @@
 				}
 			],
 			"image": "b4bz/homer:latest",
-			"logo": "https://github.com/Masterchief-solo/homelab-pub//main/docs/images/homer.png",
+			"logo": "https://raw.githubusercontent.com/Masterchief-solo/homelab-pub/main/docs/images/homer.png",
 			"name": "homer",
 			"note": "<h3><b>Official Webpage: </b><a href=\"https://github.com/bastienwirtz/homer\" target=\"_blank\">https://github.com/bastienwirtz/homer</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md\" target=\"_blank\">https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md</a><br><br><br><b>Youtube Video: </b><a href=\"https://www.youtube.com/watch?v=_d3J88ootYo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=2\" target=\"_blank\">Installing and Configuring Homer Dashboard</a><br><br>This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
 			"platform": "linux",
