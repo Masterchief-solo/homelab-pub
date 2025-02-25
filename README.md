@@ -15,6 +15,7 @@ Run the install_docker.sh script
     # be sure to reboot after installation
 
 ### Portainer Installation
+Run the install_portainer.sh script
 
     wget -qO- https://gitbits.vip/39hp5h4x | bash
 
