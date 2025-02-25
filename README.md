@@ -20,3 +20,8 @@ Run the install_portainer.sh script
     wget -qO- https://gitbits.vip/39hp5h4x | bash
 
 ### ShellinaBox Installation
+Install shell in a box
+
+    sudo apt install shellinabox
+
+Note: You need to use the full url, including https://
