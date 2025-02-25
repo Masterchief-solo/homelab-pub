@@ -16,4 +16,6 @@ Run the install_docker.sh script
 
 ### Portainer Installation
 
-    
+    wget -qO- https://gitbits.vip/39hp5h4x | bash
+
+### ShellinaBox Installation
