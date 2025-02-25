@@ -12,4 +12,8 @@ Install curl if you haven't already
 Run the install_docker.sh script 
 
     wget -qO- https://gitbits.vip/55hceeww | bash
+    # be sure to reboot after installation
 
+### Portainer Installation
+
+    
