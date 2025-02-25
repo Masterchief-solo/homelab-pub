@@ -24,4 +24,4 @@ Install shell in a box
 
     sudo apt install shellinabox
 
-Note: You need to use the full url, including https://
+Note: You need to use the full url, including https:// and port number.
