@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  cyber-chef:
+    container_name: CyberChef
+    image: ghcr.io/gchq/cyberchef:latest
+    healthcheck:
+      test: curl -f http://localhost:80/ || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    mem_limit: 2g
+    cpu_shares: 768
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure:5
+    ports:
+      - 7318:80
+    networks:
+      - cyberchef_net
+    # Optional: add labels for Portainer organization
+    labels:
+      - "local.description=CyberChef - The Cyber Swiss Army Knife"
+
+networks:
+  cyberchef_net:
+    driver: bridge
